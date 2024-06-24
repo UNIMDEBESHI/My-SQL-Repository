@@ -46,3 +46,18 @@ VALUES
 (1, '1','2','3', '2023-01-22'),
 (2, '2', '1', '10', '2023-04-14');
 
+UPDATE Orders
+SET quantity = '6'
+WHERE order_id = 2;
+
+SELECT * FROM Orders
+
+DELETE FROM Customers
+WHERE customer_name = 'Hasan';
+
+DELETE FROM Orders;
+
+DROP TABLE Orders;
+
+
+
