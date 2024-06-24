@@ -30,3 +30,19 @@ CREATE TABLE Orders (
 GO
 
 
+INSERT INTO Customers (customer_id, customer_name, customer_address)
+VALUES
+(1, 'Ahmed', 'Tunisia'),
+(2, 'Coulibaly', 'Senegal'),
+(3, 'Hasan', 'Egypt');
+
+INSERT INTO Products (product_id, product_name, product_price)
+VALUES 
+(1, 'Cookies', '10'),
+(2, 'Candy', '5.2');
+
+INSERT INTO Orders (order_id, customer_id, product_id, quantity, order_date)
+VALUES
+(1, '1','2','3', '2023-01-22'),
+(2, '2', '1', '10', '2023-04-14');
+
